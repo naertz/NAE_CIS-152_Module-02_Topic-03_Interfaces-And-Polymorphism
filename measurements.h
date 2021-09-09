@@ -9,8 +9,8 @@
 
 class Measurements {
     public:
-        virtual double perimeter() = 0; // Pure Virtual Perimeter Calculator
-        virtual double area() = 0;      // Pure Virtual Area Calculator
+        virtual double perimeter() const = 0; // Pure Virtual Perimeter Calculator
+        virtual double area() const = 0;      // Pure Virtual Area Calculator
 };
 
 #endif // MEASUREMENTS_H
