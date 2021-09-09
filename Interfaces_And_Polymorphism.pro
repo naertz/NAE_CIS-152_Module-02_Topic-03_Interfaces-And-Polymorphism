@@ -25,3 +25,7 @@ HEADERS += \
     rectangle_driver.h \
     square.h \
     square_driver.h
+
+DISTFILES += \
+    LICENSE \
+    README.md
